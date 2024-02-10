@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.navbar-brand{
+    font-weight:  700;
+    font-size:30px ;
+    color: #fff;
+}
+
+.form-control{
+    background-color: #000;
+    margin-left: 20px;
+    border-radius: 0px;
+    border-color:grey;
+}
+
+.logo{
+    width: 40%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.navbar-nav{
+    width: 100%;
+    color: #fff;
+    /* background-color: aqua; */
+}
+.nav-item>a{
+    font-weight: 600;
+    font-size: 14.2px;
+    color: white !important;
+}
+.material-symbols-outlined{
+    width: 30PX;
+    
+}
+.btn>button{
+    background-color: #000;
+    border: 1px solid grey;
+    color:#fff;
+    padding-left:3px ;
+    margin-right: 1px;
+
+}
+
