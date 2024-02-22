@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    height: 100vmax;
 }
 .navbar{
     width: 100%;
@@ -21,7 +22,7 @@ body{
 }
 
 .logo{
-    width: 40%;
+    width: 500px;
     /* background-color: aqua; */
     text-align: center;
 }
@@ -29,6 +30,8 @@ body{
     width: 100%;
     color: #fff;
     /* background-color: aqua; */
+    text-align:center;
+    
 }
 .nav-item>a{
     font-weight: 600;
@@ -41,10 +44,307 @@ body{
 }
 .btn>button{
     background-color: #000;
-    border: 1px solid grey;
+    border: 1px solid red;
     color:#fff;
     padding-left:3px ;
     margin-right: 1px;
 
 }
+.btn>button:hover{
+    color: aqua;
+   background-color:  red;
+}
+.main{
+    width: 100%;
+    
+}
+.main-image{
+    position: relative;
+}
+.main-image>img{
+    width: 100%;
+    height: 750px;
+    /* padding-top: 50px; */
+    filter: brightness(.3);
+}
+.main-content{
+    width: 50%;
+    /* height: 100vh; */
+    position: absolute;
+    top: 270px;
+}
+.text{
+    padding-left: 20px;
+    color: #fff;
+    
+}
+.text>h1{
+    font-weight: 800;
+    font-size: 80px;
+
+}
+.text>button{
+    background-color: red;
+    border: 0px solid red;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: large;
+    margin-top: 20px;
+}
+.them-card{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 675px;
+    /* margin-top: 10px; */
+    padding:10px 20px ;
+    
+}
+
+.card1{
+    width: 300px;
+    height: 180px;
+    border-radius: none !important;    
+    border-top: 1px solid #fff;
+    margin:  10px;
+    padding:10px 2px ;
+    
+}
+
+.card1>h5{
+    color: aliceblue;
+    font-size: small;
+    line-height: 60px;
+}
+.card1>h4{
+    color: aliceblue;
+
+}
+.card1 .material-symbols-outlined{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+.card2>img{
+    border-radius: 70%;
+}
+
+.card2{
+    padding-top: 50px;
+    width: 300px;
+    /* background-color: #fff; */
+    text-align:center;
+    border-radius: 40px;
+}
+
+.them-content{
+    width: 100%;
+    display: flex;
+
+}
+.them-contentone{
+    width: 50%;
+
+    margin-top: 10px;
+  
+  
+}
+
+.them-contenttwo{
+        width: 50%;
+        height: 120px;
+        margin-top: 10px;
+    
+      
+    
+}
+
+.them-contentone>h1{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.them-contenttwo>h4{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 60px;
+    text-align: right;
+}
+
+.them-contenttwo .material-symbols-outlined{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+.them-row{
+    margin-top: 15px;
+
+}
+.them-one>div, .material-symbols-outlined{
+       font-size: 18px;
+       margin: 9px;}
+
+.them-one>div{
+    position: relative;
+    position: absolute;
+    /* top: 10px; */
+    z-index: 1;
+}
+.logo-one{
+    position: relative;
+}
+
+
+.them-one>div{
+    /* position: absolute; */
+    margin: 10px ;
+    
+}
+
+.them-one>div>h5{
+    font-size: 15px;
+    color:#fff;
+    position: absolute;
+    top: 270px;
+    
+    
+
+}
+
+.them-one>div>h2{
+
+    width: 400%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+    position: absolute;
+    top: 290px;
+
+}
+.logo-two{
+    margin-top: 10px;
+}
+.logo-a1>img{
+    width: 50px;
+    height: 50px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.text-a1{
+    width:210px ;
+    margin:10px 10px ;
+}
+.b5{
+    display: flex;
+    margin-top: 20px;
+}
+
+.text-a1>h6{
+    font-size: 11px;
+    word-spacing: 5px;
+    color: grey;
+}
+.text-a1>h5{
+    font-size: 12px;
+    font-weight: bold;
+}
+.b6{
+    display: flex;
+
+}
+.manu{
+    position: relative;
+}
+.manu-image>img{
+    width: 100%;
+    height: 600px;
+    filter: brightness(.3);
+}
+.manu-text{
+    width: 50%;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    /* background-color: chocolate; */
+    
+}
+.manu-text>h1{
+    font-size: 80px;
+    line-height: 70px;
+    color: #fff;
+}
+
+.manu-text>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px;
+    color: #fff;
+    
+}
+
+.manu-text>h3{
+    font-size: 29px;
+    color: #fff;
+}
+
+
+.manu-text .material-symbols-outlined{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+    .navbar-nav{
+        display:flex;
+    }
+    .nav-item{
+    display: flex;
+    flex-wrap: wrap;
+    }
+/* 
+    .logo>img{
+        display: block;
+    } */
+
+    .them-card{
+        
+        padding-top: 50px;
+        
+    }
+    .main-content>h1{
+        display: block;
+    }
+    
+}
+@media only screen and (max-width: 700px){
+    .navbar-nav{
+        display: none;
+        flex-wrap: wrap-reverse;
+    }
+    
+}
+@media only screen and (max-width: 400px){
+    .main-content{
+        display: block;
+    }
+}
+
+
+
 
