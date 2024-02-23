@@ -382,7 +382,7 @@ body{
 }
 
 .section-one{
-    background-color: aqua;
+background-color: #000;
 }
 
 .col>div{
@@ -402,7 +402,32 @@ body{
     /* font-weight: bolder; */
     
 }
+.f{
+    
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 50%;
+    color: #fff;
+    text-align: end;
 
+}
+.gg>div{
+    color:#fff;
+    margin: 50px;
+    
+}
+.gg1{
+    border-bottom: 1px solid white;
+}
+.section-three{
+    height: 18vh;
+    margin-top: 50px;
+    color: #fff;
+    font-size: smaller;
+    font-style: inherit;
+}
 
 
 
